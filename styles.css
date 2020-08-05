@@ -1,0 +1,132 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+/* Header */
+
+/* Search Bar */
+input {
+  border-radius: 8px;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.search-bar {
+  text-align: center;
+}
+button {
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  background: #3185fc;
+  color: #403f4c;
+  font-family: 'Cantora One', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease-in-out;
+  transform: 150ms ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #0053ba;
+  transform: scale(1.1);
+}
+button:focus {
+  background: #0053ba;
+  transform: scale(0.5);
+  border: none;
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+.no-outline:focus {
+  outline: none;
+}
+.input-border {
+  border: 4px solid #e84855;
+}
+/* Layout */
+.dark-background {
+  background-color: #403f4c;
+}
+.centering {
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px 0;
+}
+.yellow-background {
+  font-family: 'Cantora One', sans-serif;
+  background-color: #f9dc5c;
+  color: #403f4c;
+  border: 5px solid #3185fc;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+/* Results */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.daily {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.temperature-row {
+  display: flex;
+  justify-content: center;
+}
+.search-display {
+  display: flex;
+}
+.results {
+  display: none;
+}
+.city-name {
+  font-weight: bold;
+}
+.weather {
+  font-size: 1.5em;
+}
+.temperature {
+  font-size: 4em;
+}
+/* 
+.daily-high {
+
+}
+.daily-low {
+
+}
+.wind-speed {
+
+} */
+
+/* Colors */
+/*
+ #403F4C
+#E84855
+#F9DC5C
+#3185FC
+#EFBCD5 
+*/
